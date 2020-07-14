@@ -8,9 +8,9 @@ namespace resolve
 		Application() = default;
 		virtual ~Application() = default;
 
-		virtual void Start() const;	 //used for setting up your game(called at the first frame only)
-		virtual void Update() const; //used for writing game logic and rendering(called every frame)
-		bool IsRunning = false;		 //used for checking if the application is still running or not
+		virtual void Start();	//used for setting up your game(called at the first frame only)
+		virtual void Update();	//used for writing game logic and rendering(called every frame)
+		bool IsRunning = false;	//used for checking if the application is still running or not
 	};
 
 	//the InitApp() function will be defined by the user:

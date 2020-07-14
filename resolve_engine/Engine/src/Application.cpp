@@ -2,10 +2,10 @@
 
 namespace resolve
 {
-	void Application::Start() const
+	void Application::Start()
 	{
 	}
-	void Application::Update() const
+	void Application::Update()
 	{
 	}
 }
